@@ -1,6 +1,7 @@
 import Add from "./peli/modules/add.js";
 import List from "./peli/modules/list.js";
 import Storage from "./peli/modules/storage.js";
+import Search from "./peli/modules/search.js";
 export default class App {
 
 
@@ -23,6 +24,7 @@ export default class App {
         this.list.show(pelis);
 
         // Buscar peliculas
+        Search();
 
         console.log("La aplicación se ha cargado correctamente...")
     }
