@@ -15,17 +15,7 @@ export default class List {
          </article>`;
     }
 
-    addToList(peli, list_pelis) {
-
-        // Plantilla de Pelicula a agregar
-        let peli_html = this.peliTemplate(peli);
-
-        // Agregar pelicula al DOM
-        this.content.innerHTML += peli_html;
-
-        // Mostrar el listado de peliculas
-        this.show(list_pelis);
-    }
+    
 
     show(pelis){
         // Vaciar DOM del contenedor de peliculas

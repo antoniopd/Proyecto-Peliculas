@@ -47,7 +47,8 @@ export default class Add {
                 this.storage.save(pelis);
 
                 // Actualizar la lista de peliculas
-                this.list.addToList(peli, pelis);
+                // this.list.addToList(peli, pelis);
+                this.list.show(pelis);
             }
 
             return false;
