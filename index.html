@@ -31,7 +31,8 @@
         </nav>
 
         <!-- Contenido Principal -->
-        <section class="content">
+        <section id="content" class="content">
+
             <!-- aquí van las peliculas -->
             <article class="peli-item">
                 <h3 class="title">Desarrollo Web</h3>
@@ -40,27 +41,7 @@
                 <button class="edit">Editar</button>
                 <button class="delete">Borrar</button>
             </article>
-            <article class="peli-item">
-                <h3 class="title">Desarrollo Web</h3>
-                <p class="description">Antonio pd</p>
 
-                <button class="edit">Editar</button>
-                <button class="delete">Borrar</button>
-            </article>
-            <article class="peli-item">
-                <h3 class="title">Desarrollo Web</h3>
-                <p class="description">Antonio pd</p>
-
-                <button class="edit">Editar</button>
-                <button class="delete">Borrar</button>
-            </article>
-            <article class="peli-item">
-                <h3 class="title">Desarrollo Web</h3>
-                <p class="description">Antonio pd</p>
-
-                <button class="edit">Editar</button>
-                <button class="delete">Borrar</button>
-            </article>
         </section>
 
         <!-- Barra Lateral -->
@@ -76,9 +57,9 @@
             <div class="add">
                 <h3 class="title">Añadir pelicula</h3>
                 <form action="">
-                    <input type="text" placeholder="Titulo">
-                    <textarea placeholder="Descripción"></textarea>
-                    <input type="submit" value="Enviar">
+                    <input type="text" id="title" placeholder="Titulo">
+                    <textarea id="description" placeholder="Descripción"></textarea>
+                    <input type="submit" id="save" value="Enviar">
                 </form>
             </div>
         </aside>
