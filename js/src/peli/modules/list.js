@@ -1,3 +1,5 @@
+import deleteOfList from "./delete.js";
+import edit from "./edit.js";
 export default class List {
 
     constructor() {
@@ -25,6 +27,12 @@ export default class List {
         pelis.forEach(peli => {
             this.content.innerHTML += this.peliTemplate(peli);
         });
+
+        // Funcionalidad de los botones borrado
+        deleteOfList();
+
+        // Funcionalidad de los botones edicion
+        edit();
     }
 
 };
